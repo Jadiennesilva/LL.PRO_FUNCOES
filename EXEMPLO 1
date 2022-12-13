@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define Q '#'
+
+void parede(int a){
+	int i;
+	for(i=0; i< a; i++){
+		printf("%c", Q);
+	}
+   printf("\n");	
+}
+
+void casa(int h, int t=6) {
+	
+for(int x = 0; x< t; x++){
+	parede(h);
+	
+	
+}
+	printf("\n");
+}
+int main(){
+	
+	int altura = 10;
+	casa(3, 2);
+	casa(9);
+	casa(15);
+	casa(9, 5);
+	casa(20);
+	return 0;
+					
+}
+	
+
+	
+
